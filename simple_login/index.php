@@ -1,5 +1,6 @@
 <?php
 session_start();
+include('connection.php');
 
 // Retrieve form data
 $username = $_POST['username'];
